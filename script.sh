@@ -1,6 +1,7 @@
 !/bin/sh
 # This is a comment!
-#apt-get update
+cd ~/Downloads
+apt-get update
 apt-get install git
 apt-get --yes install meld
 #apt-get remove docker docker-engine docker.io
@@ -16,4 +17,9 @@ sudo apt update
 sudo apt-get --yes install docker-ce
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /us$
 sudo chmod +x /usr/local/bin/docker-compose
+git clone https://github.com/daniruiz/flat-remix
+git clone https://github.com/daniruiz/flat-remix-gtk
+mkdir -p ~/.icons && mkdir -p ~/.themes
+cp -r flat-remix/Flat-Remix* ~/.icons/ && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/
+sudo apt-get install gnome-tweak-tool fonts-hack-ttf -y
 ssh-keygen
