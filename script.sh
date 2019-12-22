@@ -4,8 +4,6 @@
 apt-get install git
 apt-get --yes install meld
 #apt-get remove docker docker-engine docker.io
-apt-get --yes install docker.io
-apt-get --yes install docker-compose
 apt-get --yes install apt-transport-https
 apt-get --yes install code
 apt-get --yes install dbeaver-ce
