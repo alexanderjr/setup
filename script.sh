@@ -8,8 +8,9 @@ apt-get --yes install meld
 apt-get --yes install apt-transport-https
 apt-get --yes install code
 apt-get --yes install gnome-sushi
-apt-get --yes install piper
-apt-get --yes install keepassxc
+#apt-get --yes install piper
+#apt-get --yes install clustergit
+#apt-get --yes install keepassxc
 apt-get --yes install dbeaver-ce
 apt-get --yes install deepin-terminal
 sudo apt update
