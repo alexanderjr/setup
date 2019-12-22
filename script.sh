@@ -7,13 +7,20 @@ apt-get --yes install meld
 apt-get remove docker docker-engine docker.io
 apt-get --yes install apt-transport-https
 #apt-get --yes install code
+sudo snap install code --classic
 apt-get --yes install gnome-sushi
 #apt-get --yes install piper
 #apt-get --yes install clustergit
-apt-get --yes install keepassxc
+#apt-get --yes install keepassxc
 #sound input & Outút device chooser
 #multi monitor
-apt-get --yes install dbeaver-ce
+#apt-get --yes install dbeaver-ce
+sudo snap install dbeaver-ce
+sudo snap install chromium
+sudo snap install postman
+sudo snap install keepassxc
+sudo snap install spotify
+sudo snap install vlc
 apt-get --yes install deepin-terminal
 sudo apt update
 sudo apt-get --yes install apt-transport-https ca-certificates curl software-properties-common
